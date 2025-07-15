@@ -1,5 +1,6 @@
 <script setup>
 import Footer from './components/common/Footer.vue'
+import Polygraph from './pages/PolygraphPage.vue'
 </script>
 
 <template>
@@ -12,7 +13,9 @@ import Footer from './components/common/Footer.vue'
     </nav>
   </header>
 
-  <main></main>
+  <main>
+    <Polygraph />
+  </main>
   <Footer />
 </template>
 
